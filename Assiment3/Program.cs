@@ -29,10 +29,20 @@ namespace Assiment3
 
             #region Question4
             //Write a method PrintBookTitle(string title) that prints "Book title: " + title. Call it with "Clean Code".
-          /*  string title = "Repanzol";
-            PrintBookTitle(title);*/
+            /*  string title = "Repanzol";
+              PrintBookTitle(title);*/
 
             #endregion
+
+            #region Question5
+            //Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable int pages = 400; and print pages afterward. What do you expect to see, and why? 
+           /* int pages = 400;
+            AddBonusPages(pages);
+            Console.WriteLine(pages);*/
+            //400
+            //int is a value type. When you pass pages to AddBonusPages, the method receives a copy of the value, not the original variable.
+            #endregion
+
         }
         #region Question
         /* public static void PrintWelcomeMessage(){
@@ -42,12 +52,20 @@ namespace Assiment3
         #endregion
 
         #region Question4
-       /* public static void PrintBookTitle(string title)
-        {
-            Console.WriteLine("Book title: " + title); 
-        }*/
+        /* public static void PrintBookTitle(string title)
+         {
+             Console.WriteLine("Book title: " + title); 
+         }*/
 
         #endregion
+
+        #region Question5
+      /*  public static int AddBonusPages(int pages)
+        {
+            return pages + 50;
+        }*/
+        #endregion
+
     }
 }
 
