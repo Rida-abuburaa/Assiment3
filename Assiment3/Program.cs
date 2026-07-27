@@ -36,12 +36,27 @@ namespace Assiment3
 
             #region Question5
             //Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable int pages = 400; and print pages afterward. What do you expect to see, and why? 
-           /* int pages = 400;
-            AddBonusPages(pages);
-            Console.WriteLine(pages);*/
+            /* int pages = 400;
+             AddBonusPages(pages);
+             Console.WriteLine(pages);*/
             //400
             //int is a value type. When you pass pages to AddBonusPages, the method receives a copy of the value, not the original variable.
             #endregion
+
+            #region question6
+            //Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward.What do you expect to see, and why?
+           /* double[] prices = { 25.5, 40.0 };
+            ApplyDiscount(prices);
+            //20.5
+            //Array is a refrece type. 
+            Console.WriteLine(prices[0]);*/
+            #endregion
+
+
+
+
+
+
 
         }
         #region Question
@@ -60,11 +75,22 @@ namespace Assiment3
         #endregion
 
         #region Question5
-      /*  public static int AddBonusPages(int pages)
+        /*  public static int AddBonusPages(int pages)
+          {
+              return pages + 50;
+          }*/
+        #endregion
+
+        #region question6
+      /* public static double ApplyDiscount(double[] prices)
         {
-            return pages + 50;
+         return  prices[0]= prices[0] - 5;
+            
         }*/
         #endregion
+
+
+
 
     }
 }
