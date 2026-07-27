@@ -86,12 +86,13 @@ namespace Assiment3
 
             #region Question10
             //Write a method PrintBookInfo(string title, int pages = 300) where pages is optional. Call it once with only a title, and once passing both a title and pages.
-          /*  PrintBookInfo("Clear");
-            PrintBookInfo("Copy",600);*/
+            /*  PrintBookInfo("Clear");
+              PrintBookInfo("Copy",600);*/
 
             #endregion
             #region Question11
             //Using the PrintBookInfo method from the question above, call it by naming the parameters, passing pages before title. 
+           // PrintBookInfo(pages: 450, title: "Clean Code");
             #endregion
 
             #region Question12
@@ -100,7 +101,7 @@ namespace Assiment3
 
 
         }
-        #region Question
+        #region Question3
         /* public static void PrintWelcomeMessage(){
              Console.WriteLine("Welcome to the Library!");
 
@@ -173,9 +174,7 @@ namespace Assiment3
         }*/
 
         #endregion
-        #region Question11
 
-        #endregion
 
         #region Question12
 
