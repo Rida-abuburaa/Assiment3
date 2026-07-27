@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Reflection;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assiment3
@@ -73,15 +74,30 @@ namespace Assiment3
 
             #region Question9
             //Write a method bool TryGetPrice(string title, out double price) that returns true and sets  price to 25.5 if title is "Clean Code", otherwise returns false and sets price to 0.Call it and print the price if found
-         
 
-          /*  if (TryGetPrice("Clean Code", out double price))
-            {
-                Console.WriteLine(price);
-            }*/
+
+            /*  if (TryGetPrice("Clean Code", out double price))
+              {
+                  Console.WriteLine(price);
+              }*/
 
 
             #endregion
+
+            #region Question10
+            //Write a method PrintBookInfo(string title, int pages = 300) where pages is optional. Call it once with only a title, and once passing both a title and pages.
+          /*  PrintBookInfo("Clear");
+            PrintBookInfo("Copy",600);*/
+
+            #endregion
+            #region Question11
+            //Using the PrintBookInfo method from the question above, call it by naming the parameters, passing pages before title. 
+            #endregion
+
+            #region Question12
+            //Write a method PrintAllTitles(params string[] titles) that prints each title on its own line. Call it with three book titles.  
+            #endregion
+
 
         }
         #region Question
@@ -148,6 +164,21 @@ namespace Assiment3
 
              }
          }*/
+        #endregion
+        #region Question10
+      /* public static void PrintBookInfo(string title, int pages = 300)
+        {
+            Console.WriteLine($"Title: {title}, Pages: {pages}");
+
+        }*/
+
+        #endregion
+        #region Question11
+
+        #endregion
+
+        #region Question12
+
         #endregion
 
     }
