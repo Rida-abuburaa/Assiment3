@@ -24,16 +24,30 @@ namespace Assiment3
             #endregion
             #region Question3
             //Write a method called PrintWelcomeMessage that takes no parameters and prints "Welcome to the Library!".Call it from Main.
-            PrintWelcomeMessage();
+            // PrintWelcomeMessage();
             #endregion
 
-        }
-        #region Question3
-        public static void PrintWelcomeMessage(){
-            Console.WriteLine("Welcome to the Library!");
+            #region Question4
+            //Write a method PrintBookTitle(string title) that prints "Book title: " + title. Call it with "Clean Code".
+          /*  string title = "Repanzol";
+            PrintBookTitle(title);*/
 
-            }
+            #endregion
+        }
+        #region Question
+        /* public static void PrintWelcomeMessage(){
+             Console.WriteLine("Welcome to the Library!");
+
+             }*/
         #endregion
 
+        #region Question4
+       /* public static void PrintBookTitle(string title)
+        {
+            Console.WriteLine("Book title: " + title); 
+        }*/
+
+        #endregion
     }
 }
+
