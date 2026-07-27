@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Drawing;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assiment3
 {
@@ -54,15 +55,20 @@ namespace Assiment3
 
             #region Quetion7
             //Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref. Call it and print pages afterward. How is the result different from question 5 ?
-           /* int pages = 400;
-            AddBonusPages( ref pages);
-            Console.WriteLine(pages);*/
+            /* int pages = 400;
+             AddBonusPages( ref pages);
+             Console.WriteLine(pages);*/
             //400
             //ref allows the method to modify the original variable.
             #endregion
 
+            #region Question8
+            //Write a method ReplaceArray(ref double[] prices) that replaces prices entirely with a new array { 10.0, 12.5, 15.0 }.Call it with your prices array and print prices.Length afterward.
+           /*double[] prices = { 25.5, 40.0 };
+            ReplaceArray(ref prices);
+            Console.WriteLine(prices.Length);*/
 
-
+            #endregion
 
 
         }
@@ -97,13 +103,22 @@ namespace Assiment3
         #endregion
 
         #region  Quetion7
-       /* public static int AddBonusPages(ref int pages)
-          {
-              return pages += 50;
-          }*/
+        /* public static int AddBonusPages(ref int pages)
+           {
+               return pages += 50;
+           }*/
         #endregion
 
+        #region Question8
+     /*  public static void ReplaceArray(ref double[] prices)
+        {
+            
+         prices = new double[] { 10.0, 12.5, 15.0 };
 
+        }*/
+
+
+        #endregion
 
 
     }
