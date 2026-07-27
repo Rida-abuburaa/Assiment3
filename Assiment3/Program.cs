@@ -45,14 +45,21 @@ namespace Assiment3
 
             #region question6
             //Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward.What do you expect to see, and why?
-           /* double[] prices = { 25.5, 40.0 };
-            ApplyDiscount(prices);
-            //20.5
-            //Array is a refrece type. 
-            Console.WriteLine(prices[0]);*/
+            /* double[] prices = { 25.5, 40.0 };
+             ApplyDiscount(prices);
+             //20.5
+             //Array is a refrece type. 
+             Console.WriteLine(prices[0]);*/
             #endregion
 
-
+            #region Quetion7
+            //Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref. Call it and print pages afterward. How is the result different from question 5 ?
+           /* int pages = 400;
+            AddBonusPages( ref pages);
+            Console.WriteLine(pages);*/
+            //400
+            //ref allows the method to modify the original variable.
+            #endregion
 
 
 
@@ -82,11 +89,18 @@ namespace Assiment3
         #endregion
 
         #region question6
-      /* public static double ApplyDiscount(double[] prices)
-        {
-         return  prices[0]= prices[0] - 5;
-            
-        }*/
+        /* public static double ApplyDiscount(double[] prices)
+          {
+           return  prices[0]= prices[0] - 5;
+
+          }*/
+        #endregion
+
+        #region  Quetion7
+       /* public static int AddBonusPages(ref int pages)
+          {
+              return pages += 50;
+          }*/
         #endregion
 
 
